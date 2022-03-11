@@ -42,8 +42,8 @@ header .header-inputs .search-input-div #duckduckgo-search-textbox {
       width: 208px;
       height: 38px;
       padding: 8px 15px;
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
       font-size: 1rem;
       background: rgb(255, 255, 255);
       box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
@@ -70,8 +70,8 @@ header .header-inputs .search-input-div #search-duckduckgo-button {
       display: flex;
       justify-content: center;
       align-items: center;
-      border-top-right-radius: 20px;
-      border-bottom-right-radius: 20px;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
       background: rgb(255, 255, 255);
       box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
 }
@@ -81,7 +81,7 @@ header .header-inputs #donate-button {
       background: rgb(255, 255, 255);
       padding: 10px 14px;
       width: 246px;
-      border-radius: 20px;
+      border-radius: 8px;
       cursor: pointer;
       font-weight: bold;
       height: 38px;
