@@ -56,6 +56,8 @@ header .header-inputs .search-input-div #duckduckgo-search-textbox {
       font-size: 1rem;
       background: rgb(255, 255, 255);
       box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
       color: rgb(86, 52, 124);
       font-weight: bold;
 }
@@ -83,6 +85,8 @@ header .header-inputs .search-input-div #search-duckduckgo-button {
       border-bottom-right-radius: 8px;
       background: rgb(255, 255, 255);
       box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
 }
 
 header .header-inputs #donate-button {
@@ -97,6 +101,8 @@ header .header-inputs #donate-button {
       color: rgb(86, 52, 124);
       font-size: 1rem;
       box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
 }
 /* HEADER END */
 
@@ -106,6 +112,8 @@ nav {
       background-color: rgb(255, 255, 255);
       border-bottom: 1px solid rgb(235, 235, 235);
       box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
 }
 
 nav ul li {
@@ -235,6 +243,8 @@ main {
       display: block;
       background-color: rgb(255, 255, 255);
       box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
       padding: 20px;
       border-radius: 8px;
       width: 420px;
@@ -242,10 +252,14 @@ main {
       font-size: 1.3rem;
       font-weight: bold;
       color: rgb(86, 52, 124);
+      transition: 0.2s all ease;
 }
 
 .tails-button-div ul li a:hover {
-      border-bottom: 3px solid rgb(86, 52, 124, 0.7);
+      box-shadow: inset 0px 0px 10px 2px rgb(86, 52, 124);
+      -moz-box-shadow: inset 0px 0px 10px 2px rgb(86, 52, 124);
+      -webkit-box-shadow: inset 0px 0px 10px 2px rgb(86, 52, 124);
+      transition: 0.2s all ease;
 }
 /* TAILS BUTTON DIV END */
 
