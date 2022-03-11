@@ -155,3 +155,60 @@ nav ul li .selected-page:hover {
       border-bottom: 3px solid rgb(86, 52, 124);
 }
 /* LANGUAGE DIV END */
+
+/* MAIN START */
+main {
+      background-color: rgb(255, 255, 255);
+      padding: 10px 20px;
+}
+/* MAIN END */
+
+/* TAILS INTRODUCTION DIV START */
+.tails-introduction-div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 50px;
+}
+
+.tails-introduction-text {
+      max-width: 600px;
+      margin-left: 40px;
+}
+
+.tails-introduction-text h1 {
+      color: rgb(86, 52, 124);
+      font-size: 2.5rem;
+}
+
+.tails-introduction-text p {
+      font-size: 1.5rem;
+}
+/* TAILS INTRODUCTION DIV END */
+
+/*TAILS ABOUT-INTRO DIV START */
+.tails-about-intro-div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+}
+
+.tails-about-intro-div .tails-intro-box-div {
+      display: flex;
+      flex-direction: column;
+      max-width: 420px;
+}
+
+.tails-about-intro-div .tails-intro-box-div img {
+      margin-bottom: 30px;
+}
+
+.tails-about-intro-div .tails-intro-box-div h3 {
+      margin-bottom: 20px;
+      font-weight: 400;
+      color: rgb(86, 52, 124);
+}
+
+/*TAILS ABOUT-INTRO DIV END */
