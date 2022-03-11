@@ -21,6 +21,12 @@
 }
 /* CUSTOM SPECIFIERS END */
 
+/* HTML START */
+html {
+      scroll-behavior: smooth;
+}
+/* HTML END */
+
 /* BODY START */
 body {
       margin-right: auto;
@@ -308,3 +314,9 @@ main {
       font-size: 1rem;
 }
 /* WHO USES TAILS DIV START */
+
+/* FOOTER START */
+footer {
+      background-color: rgb(86, 52, 124);
+}
+/* FOOTER END */
