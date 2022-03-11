@@ -192,7 +192,7 @@ main {
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      margin-bottom: 30px;
+      margin-bottom: 50px;
 }
 
 .tails-about-intro-div .tails-intro-box-div {
@@ -210,5 +210,31 @@ main {
       font-weight: 400;
       color: rgb(86, 52, 124);
 }
-
 /*TAILS ABOUT-INTRO DIV END */
+
+/* TAILS BUTTON DIV */
+.tails-button-div {
+      margin-bottom: 50px;
+}
+
+.tails-button-div ul {
+      display: flex;
+      justify-content: space-between;
+}
+
+.tails-button-div ul li a {
+      display: block;
+      background-color: rgb(255, 255, 255);
+      box-shadow: inset 0px 1px 8px 1px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      border-radius: 8px;
+      width: 420px;
+      text-align: center;
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: rgb(86, 52, 124);
+}
+
+.tails-button-div ul li a:hover {
+      border-bottom: 4px solid rgb(86, 52, 124, 0.7);
+}
