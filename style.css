@@ -12,6 +12,15 @@
 }
 /* UNIVERSAL OPTIONS END */
 
+/* CUSTOM SPECIFIERS START */
+.menu-text-secondheader {
+      margin-bottom: 10px;
+      color: rgb(86, 52, 124);
+      font-weight: 400;
+      font-size: 1.5rem;
+}
+/* CUSTOM SPECIFIERS END */
+
 /* BODY START */
 body {
       margin-right: auto;
@@ -212,7 +221,7 @@ main {
 }
 /*TAILS ABOUT-INTRO DIV END */
 
-/* TAILS BUTTON DIV */
+/* TAILS BUTTON DIV START */
 .tails-button-div {
       margin-bottom: 50px;
 }
@@ -236,5 +245,52 @@ main {
 }
 
 .tails-button-div ul li a:hover {
-      border-bottom: 4px solid rgb(86, 52, 124, 0.7);
+      border-bottom: 3px solid rgb(86, 52, 124, 0.7);
 }
+/* TAILS BUTTON DIV END */
+
+/* TAILS NEWS DIV START */
+.tails-news-div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 50px;
+}
+
+.tails-news-div div a {
+      color: rgb(86, 52, 124);
+      font-weight: bold;
+}
+
+.tails-news-div div a:hover {
+      border-bottom: 3px solid rgb(86, 52, 124, 0.7);
+}
+/* TAILS NEWS DIV END */
+
+/* WHO USES TAILS DIV START */
+.who-uses-tails-div {
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+}
+
+.who-uses-tails-div div {
+      max-width: 200px;
+}
+
+.who-uses-tails-div div img {
+      margin-bottom: 20px;
+}
+
+.who-uses-tails-div div h4 {
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+      color: rgb(86, 52, 124);
+}
+
+.who-uses-tails-div div p {
+      font-size: 1rem;
+}
+/* WHO USES TAILS DIV START */
