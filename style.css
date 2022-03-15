@@ -132,6 +132,7 @@ nav {
 nav ul li {
       display: inline;
       margin-right: 20px;
+      color: rgb(86, 52, 124);
 }
 
 nav ul li a {
