@@ -137,6 +137,7 @@ nav ul li {
 nav ul li a {
       font-weight: bold;
       padding: 5px 0px;
+      color: rgb(86, 52, 124);
 }
 
 nav ul li a:hover {
